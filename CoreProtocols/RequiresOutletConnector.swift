@@ -11,3 +11,4 @@ import Foundation
 public protocol RequiresOutletConnector {
     var test : Int { get set }
 }
+

@@ -8,8 +8,8 @@
 
 import Foundation
 
-public protocol CoreFeature {
-    func create() -> CoreFeature
+public protocol Feature {
+    func create() -> Feature
 }
 
 

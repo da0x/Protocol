@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FB7386A1DA2EF5200D0B326 /* CoreProtocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB738601DA2EF5100D0B326 /* CoreProtocols.framework */; };
+		4FB7386A1DA2EF5200D0B326 /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB738601DA2EF5100D0B326 /* Protocol.framework */; };
 		4FB7386F1DA2EF5200D0B326 /* CoreProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7386E1DA2EF5200D0B326 /* CoreProtocolsTests.swift */; };
 		4FB738711DA2EF5200D0B326 /* CoreProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB738631DA2EF5100D0B326 /* CoreProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FB7387B1DA2EF8D00D0B326 /* CoreFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7387A1DA2EF8D00D0B326 /* CoreFeature.swift */; };
+		4FB7387B1DA2EF8D00D0B326 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7387A1DA2EF8D00D0B326 /* Feature.swift */; };
 		4FB7387D1DA3079200D0B326 /* RequiresOutletConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,13 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FB738601DA2EF5100D0B326 /* CoreProtocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreProtocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB738601DA2EF5100D0B326 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB738631DA2EF5100D0B326 /* CoreProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreProtocols.h; sourceTree = "<group>"; };
 		4FB738641DA2EF5100D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB738691DA2EF5200D0B326 /* CoreProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB738691DA2EF5200D0B326 /* ProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB7386E1DA2EF5200D0B326 /* CoreProtocolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreProtocolsTests.swift; sourceTree = "<group>"; };
 		4FB738701DA2EF5200D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB7387A1DA2EF8D00D0B326 /* CoreFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreFeature.swift; path = CoreProtocols/CoreFeature.swift; sourceTree = "<group>"; };
+		4FB7387A1DA2EF8D00D0B326 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = CoreProtocols/Feature.swift; sourceTree = "<group>"; };
 		4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequiresOutletConnector.swift; path = CoreProtocols/RequiresOutletConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB7386A1DA2EF5200D0B326 /* CoreProtocols.framework in Frameworks */,
+				4FB7386A1DA2EF5200D0B326 /* Protocol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 		4FB738561DA2EF5100D0B326 = {
 			isa = PBXGroup;
 			children = (
-				4FB7387A1DA2EF8D00D0B326 /* CoreFeature.swift */,
+				4FB7387A1DA2EF8D00D0B326 /* Feature.swift */,
 				4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */,
 				4FB738621DA2EF5100D0B326 /* CoreProtocols */,
 				4FB7386D1DA2EF5200D0B326 /* CoreProtocolsTests */,
@@ -68,8 +68,8 @@
 		4FB738611DA2EF5100D0B326 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FB738601DA2EF5100D0B326 /* CoreProtocols.framework */,
-				4FB738691DA2EF5200D0B326 /* CoreProtocolsTests.xctest */,
+				4FB738601DA2EF5100D0B326 /* Protocol.framework */,
+				4FB738691DA2EF5200D0B326 /* ProtocolTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4FB7385F1DA2EF5100D0B326 /* CoreProtocols */ = {
+		4FB7385F1DA2EF5100D0B326 /* Protocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FB738741DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "CoreProtocols" */;
+			buildConfigurationList = 4FB738741DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "Protocol" */;
 			buildPhases = (
 				4FB7385B1DA2EF5100D0B326 /* Sources */,
 				4FB7385C1DA2EF5100D0B326 /* Frameworks */,
@@ -119,14 +119,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreProtocols;
+			name = Protocol;
 			productName = CoreProtocols;
-			productReference = 4FB738601DA2EF5100D0B326 /* CoreProtocols.framework */;
+			productReference = 4FB738601DA2EF5100D0B326 /* Protocol.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4FB738681DA2EF5200D0B326 /* CoreProtocolsTests */ = {
+		4FB738681DA2EF5200D0B326 /* ProtocolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FB738771DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "CoreProtocolsTests" */;
+			buildConfigurationList = 4FB738771DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "ProtocolTests" */;
 			buildPhases = (
 				4FB738651DA2EF5200D0B326 /* Sources */,
 				4FB738661DA2EF5200D0B326 /* Frameworks */,
@@ -137,9 +137,9 @@
 			dependencies = (
 				4FB7386C1DA2EF5200D0B326 /* PBXTargetDependency */,
 			);
-			name = CoreProtocolsTests;
+			name = ProtocolTests;
 			productName = CoreProtocolsTests;
-			productReference = 4FB738691DA2EF5200D0B326 /* CoreProtocolsTests.xctest */;
+			productReference = 4FB738691DA2EF5200D0B326 /* ProtocolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4FB7385A1DA2EF5100D0B326 /* Build configuration list for PBXProject "CoreProtocols" */;
+			buildConfigurationList = 4FB7385A1DA2EF5100D0B326 /* Build configuration list for PBXProject "Protocol" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,8 +177,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FB7385F1DA2EF5100D0B326 /* CoreProtocols */,
-				4FB738681DA2EF5200D0B326 /* CoreProtocolsTests */,
+				4FB7385F1DA2EF5100D0B326 /* Protocol */,
+				4FB738681DA2EF5200D0B326 /* ProtocolTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB7387D1DA3079200D0B326 /* RequiresOutletConnector.swift in Sources */,
-				4FB7387B1DA2EF8D00D0B326 /* CoreFeature.swift in Sources */,
+				4FB7387B1DA2EF8D00D0B326 /* Feature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		4FB7386C1DA2EF5200D0B326 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FB7385F1DA2EF5100D0B326 /* CoreProtocols */;
+			target = 4FB7385F1DA2EF5100D0B326 /* Protocol */;
 			targetProxy = 4FB7386B1DA2EF5200D0B326 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FB7385A1DA2EF5100D0B326 /* Build configuration list for PBXProject "CoreProtocols" */ = {
+		4FB7385A1DA2EF5100D0B326 /* Build configuration list for PBXProject "Protocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FB738721DA2EF5200D0B326 /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FB738741DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "CoreProtocols" */ = {
+		4FB738741DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "Protocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FB738751DA2EF5200D0B326 /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FB738771DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "CoreProtocolsTests" */ = {
+		4FB738771DA2EF5200D0B326 /* Build configuration list for PBXNativeTarget "ProtocolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FB738781DA2EF5200D0B326 /* Debug */,
