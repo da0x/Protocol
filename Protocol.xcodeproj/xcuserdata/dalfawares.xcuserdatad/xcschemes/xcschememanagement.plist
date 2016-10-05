@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CoreProtocols.xcscheme</key>
+		<key>Protocol.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4FB7385F1DA2EF5100D0B326</key>
+		<key>4FF8B9C21DA4C36B00737150</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4FB738681DA2EF5200D0B326</key>
+		<key>4FF8B9CB1DA4C36B00737150</key>
 		<dict>
 			<key>primary</key>
 			<true/>

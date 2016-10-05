@@ -1,15 +1,15 @@
 //
-//  CoreProtocolsTests.swift
-//  CoreProtocolsTests
+//  ProtocolTests.swift
+//  ProtocolTests
 //
-//  Created by Daher Alfawares on 10/3/16.
-//  Copyright © 2016 Solstice Mobile. All rights reserved.
+//  Created by Daher Alfawares on 10/5/16.
+//  Copyright © 2016 Daher Alfawares. All rights reserved.
 //
 
 import XCTest
-@testable import CoreProtocols
+@testable import Protocol
 
-class CoreProtocolsTests: XCTestCase {
+class ProtocolTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
