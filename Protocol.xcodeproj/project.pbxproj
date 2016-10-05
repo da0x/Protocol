@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4FB7386A1DA2EF5200D0B326 /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB738601DA2EF5100D0B326 /* Protocol.framework */; };
-		4FB7386F1DA2EF5200D0B326 /* CoreProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7386E1DA2EF5200D0B326 /* CoreProtocolsTests.swift */; };
-		4FB738711DA2EF5200D0B326 /* CoreProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB738631DA2EF5100D0B326 /* CoreProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FB7387B1DA2EF8D00D0B326 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7387A1DA2EF8D00D0B326 /* Feature.swift */; };
-		4FB7387D1DA3079200D0B326 /* RequiresOutletConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */; };
+		4FF8B9791DA4BD1100737150 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B9751DA4BD1100737150 /* Feature.swift */; };
+		4FF8B97A1DA4BD1100737150 /* RequiresOutletConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B9761DA4BD1100737150 /* RequiresOutletConnector.swift */; };
+		4FF8B97B1DA4BD1100737150 /* CoreProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF8B9771DA4BD1100737150 /* CoreProtocols.h */; };
+		4FF8B97C1DA4BD1100737150 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8B9781DA4BD1100737150 /* Info.plist */; };
+		4FF8B9801DA4BD2700737150 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8B97E1DA4BD2700737150 /* Info.plist */; };
+		4FF8B9811DA4BD8B00737150 /* CoreProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B97D1DA4BD2700737150 /* CoreProtocolsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +28,13 @@
 
 /* Begin PBXFileReference section */
 		4FB738601DA2EF5100D0B326 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB738631DA2EF5100D0B326 /* CoreProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreProtocols.h; sourceTree = "<group>"; };
-		4FB738641DA2EF5100D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB738691DA2EF5200D0B326 /* ProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB7386E1DA2EF5200D0B326 /* CoreProtocolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreProtocolsTests.swift; sourceTree = "<group>"; };
-		4FB738701DA2EF5200D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB7387A1DA2EF8D00D0B326 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = CoreProtocols/Feature.swift; sourceTree = "<group>"; };
-		4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequiresOutletConnector.swift; path = CoreProtocols/RequiresOutletConnector.swift; sourceTree = "<group>"; };
+		4FF8B9751DA4BD1100737150 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = Protocols/Feature.swift; sourceTree = SOURCE_ROOT; };
+		4FF8B9761DA4BD1100737150 /* RequiresOutletConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequiresOutletConnector.swift; path = Protocols/RequiresOutletConnector.swift; sourceTree = SOURCE_ROOT; };
+		4FF8B9771DA4BD1100737150 /* CoreProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreProtocols.h; path = Protocols/CoreProtocols.h; sourceTree = SOURCE_ROOT; };
+		4FF8B9781DA4BD1100737150 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Protocols/Info.plist; sourceTree = SOURCE_ROOT; };
+		4FF8B97D1DA4BD2700737150 /* CoreProtocolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreProtocolsTests.swift; path = ProtocolsTests/CoreProtocolsTests.swift; sourceTree = SOURCE_ROOT; };
+		4FF8B97E1DA4BD2700737150 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ProtocolsTests/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,7 @@
 		4FB738561DA2EF5100D0B326 = {
 			isa = PBXGroup;
 			children = (
-				4FB7387A1DA2EF8D00D0B326 /* Feature.swift */,
-				4FB7387C1DA3079200D0B326 /* RequiresOutletConnector.swift */,
-				4FB738621DA2EF5100D0B326 /* CoreProtocols */,
+				4FB738621DA2EF5100D0B326 /* Protocols */,
 				4FB7386D1DA2EF5200D0B326 /* CoreProtocolsTests */,
 				4FB738611DA2EF5100D0B326 /* Products */,
 			);
@@ -74,20 +74,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FB738621DA2EF5100D0B326 /* CoreProtocols */ = {
+		4FB738621DA2EF5100D0B326 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				4FB738631DA2EF5100D0B326 /* CoreProtocols.h */,
-				4FB738641DA2EF5100D0B326 /* Info.plist */,
+				4FF8B9751DA4BD1100737150 /* Feature.swift */,
+				4FF8B9761DA4BD1100737150 /* RequiresOutletConnector.swift */,
+				4FF8B9771DA4BD1100737150 /* CoreProtocols.h */,
+				4FF8B9781DA4BD1100737150 /* Info.plist */,
 			);
+			name = Protocols;
 			path = CoreProtocols;
 			sourceTree = "<group>";
 		};
 		4FB7386D1DA2EF5200D0B326 /* CoreProtocolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4FB7386E1DA2EF5200D0B326 /* CoreProtocolsTests.swift */,
-				4FB738701DA2EF5200D0B326 /* Info.plist */,
+				4FF8B97D1DA4BD2700737150 /* CoreProtocolsTests.swift */,
+				4FF8B97E1DA4BD2700737150 /* Info.plist */,
 			);
 			path = CoreProtocolsTests;
 			sourceTree = "<group>";
@@ -99,7 +102,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB738711DA2EF5200D0B326 /* CoreProtocols.h in Headers */,
+				4FF8B97B1DA4BD1100737150 /* CoreProtocols.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +174,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4FB738561DA2EF5100D0B326;
 			productRefGroup = 4FB738611DA2EF5100D0B326 /* Products */;
@@ -188,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF8B9801DA4BD2700737150 /* Info.plist in Resources */,
+				4FF8B97C1DA4BD1100737150 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB7387D1DA3079200D0B326 /* RequiresOutletConnector.swift in Sources */,
-				4FB7387B1DA2EF8D00D0B326 /* Feature.swift in Sources */,
+				4FF8B97A1DA4BD1100737150 /* RequiresOutletConnector.swift in Sources */,
+				4FF8B9791DA4BD1100737150 /* Feature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB7386F1DA2EF5200D0B326 /* CoreProtocolsTests.swift in Sources */,
+				4FF8B9811DA4BD8B00737150 /* CoreProtocolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +344,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CoreProtocols/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Protocols/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CoreProtocols;
@@ -359,7 +365,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CoreProtocols/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Protocols/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CoreProtocols;
@@ -374,7 +380,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
-				INFOPLIST_FILE = CoreProtocolsTests/Info.plist;
+				INFOPLIST_FILE = ProtocolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CoreProtocolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,7 +393,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
-				INFOPLIST_FILE = CoreProtocolsTests/Info.plist;
+				INFOPLIST_FILE = ProtocolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CoreProtocolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
