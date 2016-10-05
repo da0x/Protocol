@@ -12,6 +12,7 @@
 		4FF8B9D41DA4C36B00737150 /* Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF8B9C61DA4C36B00737150 /* Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FF8B9DF1DA4C37C00737150 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B9DD1DA4C37C00737150 /* Feature.swift */; };
 		4FF8B9E01DA4C37C00737150 /* RequiresOutletConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B9DE1DA4C37C00737150 /* RequiresOutletConnector.swift */; };
+		4FF8B9E21DA4C6FF00737150 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8B9E11DA4C6FF00737150 /* Sender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		4FF8B9D31DA4C36B00737150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF8B9DD1DA4C37C00737150 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		4FF8B9DE1DA4C37C00737150 /* RequiresOutletConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiresOutletConnector.swift; sourceTree = "<group>"; };
+		4FF8B9E11DA4C6FF00737150 /* Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4FF8B9DD1DA4C37C00737150 /* Feature.swift */,
+				4FF8B9E11DA4C6FF00737150 /* Sender.swift */,
 				4FF8B9DE1DA4C37C00737150 /* RequiresOutletConnector.swift */,
 				4FF8B9C61DA4C36B00737150 /* Protocol.h */,
 				4FF8B9C71DA4C36B00737150 /* Info.plist */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF8B9E01DA4C37C00737150 /* RequiresOutletConnector.swift in Sources */,
+				4FF8B9E21DA4C6FF00737150 /* Sender.swift in Sources */,
 				4FF8B9DF1DA4C37C00737150 /* Feature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				4FF8B9D91DA4C36B00737150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF8B9DA1DA4C36B00737150 /* Build configuration list for PBXNativeTarget "ProtocolTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				4FF8B9DC1DA4C36B00737150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
